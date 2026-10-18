@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Range_Km__c</fullName>
+    <label>Range (km)</label>
+    <description>Range per full charge or full tank in kilometres.</description>
+    <inlineHelpText>Approximate kilometres per charge or tank.</inlineHelpText>
+    <type>Number</type>
+    <precision>5</precision>
+    <scale>0</scale>
+    <required>false</required>
+</CustomField>

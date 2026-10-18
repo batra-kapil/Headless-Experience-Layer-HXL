@@ -1,0 +1,24 @@
+{
+  "title": "Roadster Fleet Result V3",
+  "description": "Invocable-action result envelope for the Get Available Rental Cars tool on the roadsterRentalsMcp MCP server (versioned resource URI V3, hero via featuredCars list).",
+  "type": "object",
+  "lightning:type": "lightning__objectType",
+  "lightning:tags": [
+    "mcp"
+  ],
+  "unevaluatedProperties": false,
+  "properties": {
+    "actionName": {
+      "title": "Action Name",
+      "lightning:type": "lightning__textType"
+    },
+    "isSuccess": {
+      "title": "Is Success",
+      "lightning:type": "lightning__booleanType"
+    },
+    "outputValues": {
+      "title": "Output Values",
+      "lightning:type": "c__roadsterFleetOutputValues"
+    }
+  }
+}

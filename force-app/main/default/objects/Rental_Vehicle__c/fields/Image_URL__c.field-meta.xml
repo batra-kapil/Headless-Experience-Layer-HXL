@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Image_URL__c</fullName>
+    <label>Image URL</label>
+    <description>Public HTTPS URL of the car photo rendered by the widget. The host must be a Trusted URL for MCP channels.</description>
+    <inlineHelpText>Public image link, for example a raw GitHub URL.</inlineHelpText>
+    <type>Url</type>
+    <required>false</required>
+</CustomField>

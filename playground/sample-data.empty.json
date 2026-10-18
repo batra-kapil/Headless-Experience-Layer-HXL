@@ -1,0 +1,12 @@
+{
+  "$attrs": {
+    "totalCount": 0,
+    "locationLabel": "all Roadster Rentals locations",
+    "isEmpty": true,
+    "headline": "No cars available at all Roadster Rentals locations for this search",
+    "hasFeatured": false,
+    "featuredCars": [],
+    "featuredCar": null,
+    "cars": []
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>[EMAIL]</contactEmail>
+    <description>OAuth client for MCP clients (Claude) connecting to the Salesforce hosted MCP server roadsterRentalsMcp.</description>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>Roadster Rentals MCP</label>
+</ExternalClientApplication>

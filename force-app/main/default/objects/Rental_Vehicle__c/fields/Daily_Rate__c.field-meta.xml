@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Daily_Rate__c</fullName>
+    <label>Daily Rate</label>
+    <description>Rental price per day.</description>
+    <inlineHelpText>Price charged per rental day.</inlineHelpText>
+    <type>Currency</type>
+    <precision>8</precision>
+    <scale>2</scale>
+    <required>false</required>
+</CustomField>

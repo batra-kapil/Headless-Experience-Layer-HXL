@@ -1,0 +1,19 @@
+{
+  "renderer": {
+    "componentOverrides": {
+      "$": {
+        "definition": "@widget/c/roadsterFleet",
+        "attributes": {
+          "headline": "{!$attrs.outputValues.fleetResponse.headline}",
+          "locationLabel": "{!$attrs.outputValues.fleetResponse.locationLabel}",
+          "totalCount": "{!$attrs.outputValues.fleetResponse.totalCount}",
+          "hasFeatured": "{!$attrs.outputValues.fleetResponse.hasFeatured}",
+          "isEmpty": "{!$attrs.outputValues.fleetResponse.isEmpty}",
+          "featuredCar": "{!$attrs.outputValues.fleetResponse.featuredCar}",
+          "featuredCars": "{!$attrs.outputValues.fleetResponse.featuredCars}",
+          "cars": "{!$attrs.outputValues.fleetResponse.cars}"
+        }
+      }
+    }
+  }
+}

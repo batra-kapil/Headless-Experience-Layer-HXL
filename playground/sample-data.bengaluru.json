@@ -1,0 +1,47 @@
+{
+  "$attrs": {
+    "totalCount": 2,
+    "locationLabel": "Bengaluru Airport",
+    "isEmpty": false,
+    "headline": "2 cars available at Bengaluru Airport",
+    "hasFeatured": false,
+    "featuredCars": [],
+    "featuredCar": null,
+    "cars": [
+      {
+        "vehicleId": "[VEHICLE_ID_5]",
+        "transmission": "Manual",
+        "tagline": "The reliable city commuter.",
+        "seatsLabel": "5 seats",
+        "ratingLabel": "Rated 4.4 / 5",
+        "rating": 4.4,
+        "rangeLabel": "650 km range",
+        "name": "Honda City",
+        "location": "Bengaluru Airport",
+        "imageUrl": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/honda-city.jpg",
+        "fuelType": "Petrol",
+        "dailyRateLabel": "$35 / day",
+        "dailyRate": 35,
+        "category": "Sedan",
+        "bookMessage": "Book the Honda City at Bengaluru Airport"
+      },
+      {
+        "vehicleId": "[VEHICLE_ID_6]",
+        "transmission": "Automatic",
+        "tagline": "Business class on four wheels.",
+        "seatsLabel": "5 seats",
+        "ratingLabel": "Rated 4.7 / 5",
+        "rating": 4.7,
+        "rangeLabel": "700 km range",
+        "name": "BMW 5 Series",
+        "location": "Bengaluru Airport",
+        "imageUrl": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/bmw-5-series.jpg",
+        "fuelType": "Petrol",
+        "dailyRateLabel": "$149 / day",
+        "dailyRate": 149,
+        "category": "Luxury",
+        "bookMessage": "Book the BMW 5 Series at Bengaluru Airport"
+      }
+    ]
+  }
+}

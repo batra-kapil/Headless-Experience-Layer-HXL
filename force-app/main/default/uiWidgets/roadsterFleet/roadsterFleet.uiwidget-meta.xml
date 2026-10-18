@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UiWidgetBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Roadster Rentals Fleet</masterLabel>
+    <description>Shows available Roadster Rentals cars with a featured hero car, a bookable car list and a Book button that sends a follow-up message to the agent.</description>
+    <widgetType>JSON</widgetType>
+</UiWidgetBundle>

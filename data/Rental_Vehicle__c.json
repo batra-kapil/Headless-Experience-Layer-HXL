@@ -1,0 +1,172 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef1"
+            },
+            "Name": "Tesla Roadster",
+            "Make__c": "Tesla",
+            "Model__c": "Roadster",
+            "Category__c": "Flagship",
+            "Daily_Rate__c": 1999,
+            "Seats__c": 4,
+            "Transmission__c": "Automatic",
+            "Fuel_Type__c": "Electric",
+            "Range_Km__c": 1000,
+            "Location__c": "Hyderabad Airport",
+            "Rating__c": 5,
+            "Is_Available__c": true,
+            "Is_Featured__c": true,
+            "Tagline__c": "Our flagship. Thrusters not included in the base plan.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/tesla-roadster.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef2"
+            },
+            "Name": "Tesla Model 3",
+            "Make__c": "Tesla",
+            "Model__c": "Model 3",
+            "Category__c": "Electric",
+            "Daily_Rate__c": 89,
+            "Seats__c": 5,
+            "Transmission__c": "Automatic",
+            "Fuel_Type__c": "Electric",
+            "Range_Km__c": 510,
+            "Location__c": "Hyderabad Airport",
+            "Rating__c": 4.8,
+            "Is_Available__c": true,
+            "Is_Featured__c": false,
+            "Tagline__c": "Quiet, quick, and charges while you grab coffee.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/tesla-model-3.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef3"
+            },
+            "Name": "Toyota RAV4",
+            "Make__c": "Toyota",
+            "Model__c": "RAV4",
+            "Category__c": "SUV",
+            "Daily_Rate__c": 65,
+            "Seats__c": 5,
+            "Transmission__c": "Automatic",
+            "Fuel_Type__c": "Hybrid",
+            "Range_Km__c": 900,
+            "Location__c": "Hyderabad Airport",
+            "Rating__c": 4.6,
+            "Is_Available__c": true,
+            "Is_Featured__c": false,
+            "Tagline__c": "Room for the family and the luggage.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/toyota-rav4.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef4"
+            },
+            "Name": "Mahindra XUV700",
+            "Make__c": "Mahindra",
+            "Model__c": "XUV700",
+            "Category__c": "SUV",
+            "Daily_Rate__c": 55,
+            "Seats__c": 7,
+            "Transmission__c": "Automatic",
+            "Fuel_Type__c": "Diesel",
+            "Range_Km__c": 850,
+            "Location__c": "Hyderabad Airport",
+            "Rating__c": 4.5,
+            "Is_Available__c": true,
+            "Is_Featured__c": false,
+            "Tagline__c": "Seven seats for the weekend road trip.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/mahindra-xuv700.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef5"
+            },
+            "Name": "Honda City",
+            "Make__c": "Honda",
+            "Model__c": "City",
+            "Category__c": "Sedan",
+            "Daily_Rate__c": 35,
+            "Seats__c": 5,
+            "Transmission__c": "Manual",
+            "Fuel_Type__c": "Petrol",
+            "Range_Km__c": 650,
+            "Location__c": "Bengaluru Airport",
+            "Rating__c": 4.4,
+            "Is_Available__c": true,
+            "Is_Featured__c": false,
+            "Tagline__c": "The reliable city commuter.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/honda-city.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef6"
+            },
+            "Name": "BMW 5 Series",
+            "Make__c": "BMW",
+            "Model__c": "5 Series",
+            "Category__c": "Luxury",
+            "Daily_Rate__c": 149,
+            "Seats__c": 5,
+            "Transmission__c": "Automatic",
+            "Fuel_Type__c": "Petrol",
+            "Range_Km__c": 700,
+            "Location__c": "Bengaluru Airport",
+            "Rating__c": 4.7,
+            "Is_Available__c": true,
+            "Is_Featured__c": false,
+            "Tagline__c": "Business class on four wheels.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/bmw-5-series.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef7"
+            },
+            "Name": "Ford Mustang Convertible",
+            "Make__c": "Ford",
+            "Model__c": "Mustang Convertible",
+            "Category__c": "Sport",
+            "Daily_Rate__c": 129,
+            "Seats__c": 4,
+            "Transmission__c": "Automatic",
+            "Fuel_Type__c": "Petrol",
+            "Range_Km__c": 550,
+            "Location__c": "San Francisco Airport",
+            "Rating__c": 4.7,
+            "Is_Available__c": true,
+            "Is_Featured__c": false,
+            "Tagline__c": "Top down on the coast highway.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/ford-mustang-convertible.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Rental_Vehicle__c",
+                "referenceId": "RentalVehicleRef8"
+            },
+            "Name": "Maruti Suzuki Swift",
+            "Make__c": "Maruti Suzuki",
+            "Model__c": "Swift",
+            "Category__c": "Economy",
+            "Daily_Rate__c": 25,
+            "Seats__c": 5,
+            "Transmission__c": "Manual",
+            "Fuel_Type__c": "Petrol",
+            "Range_Km__c": 600,
+            "Location__c": "Hyderabad Airport",
+            "Rating__c": 4.3,
+            "Is_Available__c": false,
+            "Is_Featured__c": false,
+            "Tagline__c": "Small, smart, and currently booked out.",
+            "Image_URL__c": "https://raw.githubusercontent.com/batra-kapil/roadster-rentals-assets/main/cars/maruti-suzuki-swift.jpg"
+        }
+    ]
+}

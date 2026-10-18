@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating__c</fullName>
+    <label>Rating</label>
+    <description>Average customer rating out of 5.</description>
+    <inlineHelpText>Customer rating from 0.0 to 5.0.</inlineHelpText>
+    <type>Number</type>
+    <precision>2</precision>
+    <scale>1</scale>
+    <required>false</required>
+</CustomField>

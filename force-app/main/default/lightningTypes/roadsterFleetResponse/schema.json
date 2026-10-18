@@ -1,0 +1,5 @@
+{
+  "title": "Roadster Fleet Response",
+  "description": "Available Roadster Rentals cars returned by the Get Available Rental Cars Agentforce action.",
+  "lightning:type": "@apexClassType/c__RoadsterRentalsGetAvailableCars$FleetResult"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<McpServerDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Roadster Rentals fleet tools. Finds available rental cars by pickup location, category, and daily budget, and renders the results as the Roadster Rentals Fleet widget.</description>
+    <masterLabel>roadsterRentalsMcp</masterLabel>
+    <resources>
+        <description>Available Roadster Rentals cars with a featured hero car and Book buttons.</description>
+        <resourceName>roadsterFleetV3</resourceName>
+        <resourceTitle>Roadster Rentals Fleet</resourceTitle>
+        <resourceUri>ui://widget/lightningType/c__roadsterFleetResultV3</resourceUri>
+    </resources>
+    <tools>
+        <apiDefinition>
+            <apiIdentifier>aa:apex-RoadsterRentalsGetAvailableCars</apiIdentifier>
+            <apiSource>API_CATALOG</apiSource>
+            <operation>RoadsterRentalsGetAvailableCars</operation>
+        </apiDefinition>
+        <descriptionOverride>Returns the available Roadster Rentals cars: a featured flagship car plus a list of other cars with daily price, seats, transmission, fuel, range, and rating. Use when a user wants to book, rent, reserve, or browse rental cars. All inputs are optional: location (Hyderabad Airport, Bengaluru Airport, San Francisco Airport, or a city name), category (Flagship, Electric, SUV, Sedan, Luxury, Sport, Economy), maxDailyRate in USD.</descriptionOverride>
+        <destructive>false</destructive>
+        <idempotent>false</idempotent>
+        <openWorld>false</openWorld>
+        <readOnly>true</readOnly>
+        <returnDirect>false</returnDirect>
+        <toolName>getAvailableRentalCars</toolName>
+        <toolTitle>Get Available Rental Cars</toolTitle>
+        <uiResource>roadsterFleetV3</uiResource>
+    </tools>
+</McpServerDefinition>

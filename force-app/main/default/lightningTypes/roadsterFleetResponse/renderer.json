@@ -1,0 +1,19 @@
+{
+  "renderer": {
+    "componentOverrides": {
+      "$": {
+        "definition": "@widget/c/roadsterFleet",
+        "attributes": {
+          "headline": "{!$attrs.headline}",
+          "locationLabel": "{!$attrs.locationLabel}",
+          "totalCount": "{!$attrs.totalCount}",
+          "hasFeatured": "{!$attrs.hasFeatured}",
+          "isEmpty": "{!$attrs.isEmpty}",
+          "featuredCar": "{!$attrs.featuredCar}",
+          "featuredCars": "{!$attrs.featuredCars}",
+          "cars": "{!$attrs.cars}"
+        }
+      }
+    }
+  }
+}

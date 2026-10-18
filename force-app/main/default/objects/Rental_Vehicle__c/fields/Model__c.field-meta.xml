@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model__c</fullName>
+    <label>Model</label>
+    <description>Vehicle model name.</description>
+    <inlineHelpText>Model, for example Model 3 or RAV4.</inlineHelpText>
+    <type>Text</type>
+    <length>60</length>
+    <required>false</required>
+</CustomField>

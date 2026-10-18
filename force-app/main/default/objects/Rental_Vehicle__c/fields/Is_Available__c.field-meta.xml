@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Available__c</fullName>
+    <label>Is Available</label>
+    <description>Whether the vehicle can be booked right now. Only available cars are returned to agents.</description>
+    <inlineHelpText>Uncheck to hide the car from search.</inlineHelpText>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>

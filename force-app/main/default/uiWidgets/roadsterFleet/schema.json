@@ -1,0 +1,289 @@
+{
+  "title": "Roadster Rentals Fleet",
+  "description": "Shows available Roadster Rentals cars: a headline, an optional featured hero car and a list of bookable cars.",
+  "type": "object",
+  "properties": {
+    "attributes": {
+      "lightning:type": "lightning__objectType",
+      "properties": {
+        "headline": {
+          "title": "Headline",
+          "description": "Summary line, for example 6 cars available at Hyderabad Airport.",
+          "lightning:type": "lightning__textType"
+        },
+        "locationLabel": {
+          "title": "Location Label",
+          "description": "Location the results refer to.",
+          "lightning:type": "lightning__textType"
+        },
+        "totalCount": {
+          "title": "Total Count",
+          "description": "Number of available cars returned, including the featured car.",
+          "lightning:type": "lightning__numberType"
+        },
+        "hasFeatured": {
+          "title": "Has Featured",
+          "description": "True when a featured flagship car is included.",
+          "lightning:type": "lightning__booleanType"
+        },
+        "isEmpty": {
+          "title": "Is Empty",
+          "description": "True when no cars match the search.",
+          "lightning:type": "lightning__booleanType"
+        },
+        "featuredCar": {
+          "title": "Featured Car",
+          "description": "The featured flagship car shown as the hero card.",
+          "lightning:type": "lightning__objectType",
+          "properties": {
+            "vehicleId": {
+              "title": "Vehicle Id",
+              "description": "Salesforce record Id of the vehicle.",
+              "lightning:type": "lightning__textType"
+            },
+            "name": {
+              "title": "Name",
+              "description": "Vehicle display name.",
+              "lightning:type": "lightning__textType"
+            },
+            "category": {
+              "title": "Category",
+              "description": "Fleet category.",
+              "lightning:type": "lightning__textType"
+            },
+            "dailyRateLabel": {
+              "title": "Daily Rate Label",
+              "description": "Formatted price, for example $89 / day.",
+              "lightning:type": "lightning__textType"
+            },
+            "dailyRate": {
+              "title": "Daily Rate",
+              "description": "Price per day in USD.",
+              "lightning:type": "lightning__numberType"
+            },
+            "seatsLabel": {
+              "title": "Seats Label",
+              "description": "Seat count, for example 5 seats.",
+              "lightning:type": "lightning__textType"
+            },
+            "transmission": {
+              "title": "Transmission",
+              "description": "Automatic or Manual.",
+              "lightning:type": "lightning__textType"
+            },
+            "fuelType": {
+              "title": "Fuel Type",
+              "description": "Electric, Petrol, Diesel or Hybrid.",
+              "lightning:type": "lightning__textType"
+            },
+            "rangeLabel": {
+              "title": "Range Label",
+              "description": "Range per charge or tank, for example 510 km range.",
+              "lightning:type": "lightning__textType"
+            },
+            "location": {
+              "title": "Location",
+              "description": "Pickup location.",
+              "lightning:type": "lightning__textType"
+            },
+            "rating": {
+              "title": "Rating",
+              "description": "Customer rating out of 5.",
+              "lightning:type": "lightning__numberType"
+            },
+            "ratingLabel": {
+              "title": "Rating Label",
+              "description": "Formatted rating, for example Rated 4.8 / 5.",
+              "lightning:type": "lightning__textType"
+            },
+            "imageUrl": {
+              "title": "Image URL",
+              "description": "Public image URL of the car.",
+              "lightning:type": "lightning__urlType"
+            },
+            "tagline": {
+              "title": "Tagline",
+              "description": "Short marketing line.",
+              "lightning:type": "lightning__textType"
+            },
+            "bookMessage": {
+              "title": "Book Message",
+              "description": "Follow-up message sent to the agent when the user clicks Book.",
+              "lightning:type": "lightning__textType"
+            }
+          }
+        },
+        "featuredCars": {
+          "title": "Featured Cars",
+          "description": "The featured flagship car as a one-item list (empty when none). Rendered as the hero card.",
+          "lightning:type": "lightning__listType",
+          "items": {
+            "lightning:type": "lightning__objectType",
+            "properties": {
+              "vehicleId": {
+                "title": "Vehicle Id",
+                "description": "Salesforce record Id of the vehicle.",
+                "lightning:type": "lightning__textType"
+              },
+              "name": {
+                "title": "Name",
+                "description": "Vehicle display name.",
+                "lightning:type": "lightning__textType"
+              },
+              "category": {
+                "title": "Category",
+                "description": "Fleet category.",
+                "lightning:type": "lightning__textType"
+              },
+              "dailyRateLabel": {
+                "title": "Daily Rate Label",
+                "description": "Formatted price, for example $89 / day.",
+                "lightning:type": "lightning__textType"
+              },
+              "dailyRate": {
+                "title": "Daily Rate",
+                "description": "Price per day in USD.",
+                "lightning:type": "lightning__numberType"
+              },
+              "seatsLabel": {
+                "title": "Seats Label",
+                "description": "Seat count, for example 5 seats.",
+                "lightning:type": "lightning__textType"
+              },
+              "transmission": {
+                "title": "Transmission",
+                "description": "Automatic or Manual.",
+                "lightning:type": "lightning__textType"
+              },
+              "fuelType": {
+                "title": "Fuel Type",
+                "description": "Electric, Petrol, Diesel or Hybrid.",
+                "lightning:type": "lightning__textType"
+              },
+              "rangeLabel": {
+                "title": "Range Label",
+                "description": "Range per charge or tank, for example 510 km range.",
+                "lightning:type": "lightning__textType"
+              },
+              "location": {
+                "title": "Location",
+                "description": "Pickup location.",
+                "lightning:type": "lightning__textType"
+              },
+              "rating": {
+                "title": "Rating",
+                "description": "Customer rating out of 5.",
+                "lightning:type": "lightning__numberType"
+              },
+              "ratingLabel": {
+                "title": "Rating Label",
+                "description": "Formatted rating, for example Rated 4.8 / 5.",
+                "lightning:type": "lightning__textType"
+              },
+              "imageUrl": {
+                "title": "Image URL",
+                "description": "Public image URL of the car.",
+                "lightning:type": "lightning__urlType"
+              },
+              "tagline": {
+                "title": "Tagline",
+                "description": "Short marketing line.",
+                "lightning:type": "lightning__textType"
+              },
+              "bookMessage": {
+                "title": "Book Message",
+                "description": "Follow-up message sent to the agent when the user clicks Book.",
+                "lightning:type": "lightning__textType"
+              }
+            }
+          }
+        },
+        "cars": {
+          "title": "Cars",
+          "description": "Available cars other than the featured car.",
+          "lightning:type": "lightning__listType",
+          "items": {
+            "lightning:type": "lightning__objectType",
+            "properties": {
+              "vehicleId": {
+                "title": "Vehicle Id",
+                "description": "Salesforce record Id of the vehicle.",
+                "lightning:type": "lightning__textType"
+              },
+              "name": {
+                "title": "Name",
+                "description": "Vehicle display name.",
+                "lightning:type": "lightning__textType"
+              },
+              "category": {
+                "title": "Category",
+                "description": "Fleet category.",
+                "lightning:type": "lightning__textType"
+              },
+              "dailyRateLabel": {
+                "title": "Daily Rate Label",
+                "description": "Formatted price, for example $89 / day.",
+                "lightning:type": "lightning__textType"
+              },
+              "dailyRate": {
+                "title": "Daily Rate",
+                "description": "Price per day in USD.",
+                "lightning:type": "lightning__numberType"
+              },
+              "seatsLabel": {
+                "title": "Seats Label",
+                "description": "Seat count, for example 5 seats.",
+                "lightning:type": "lightning__textType"
+              },
+              "transmission": {
+                "title": "Transmission",
+                "description": "Automatic or Manual.",
+                "lightning:type": "lightning__textType"
+              },
+              "fuelType": {
+                "title": "Fuel Type",
+                "description": "Electric, Petrol, Diesel or Hybrid.",
+                "lightning:type": "lightning__textType"
+              },
+              "rangeLabel": {
+                "title": "Range Label",
+                "description": "Range per charge or tank, for example 510 km range.",
+                "lightning:type": "lightning__textType"
+              },
+              "location": {
+                "title": "Location",
+                "description": "Pickup location.",
+                "lightning:type": "lightning__textType"
+              },
+              "rating": {
+                "title": "Rating",
+                "description": "Customer rating out of 5.",
+                "lightning:type": "lightning__numberType"
+              },
+              "ratingLabel": {
+                "title": "Rating Label",
+                "description": "Formatted rating, for example Rated 4.8 / 5.",
+                "lightning:type": "lightning__textType"
+              },
+              "imageUrl": {
+                "title": "Image URL",
+                "description": "Public image URL of the car.",
+                "lightning:type": "lightning__urlType"
+              },
+              "tagline": {
+                "title": "Tagline",
+                "description": "Short marketing line.",
+                "lightning:type": "lightning__textType"
+              },
+              "bookMessage": {
+                "title": "Book Message",
+                "description": "Follow-up message sent to the agent when the user clicks Book.",
+                "lightning:type": "lightning__textType"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

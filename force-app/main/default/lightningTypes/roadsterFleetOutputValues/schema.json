@@ -1,0 +1,14 @@
+{
+  "title": "Roadster Fleet Output Values",
+  "description": "Payload fields from the RoadsterRentalsGetAvailableCars response, typed for the roadsterRentalsMcp tool.",
+  "type": "object",
+  "lightning:type": "lightning__objectType",
+  "lightning:tags": ["mcp"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "fleetResponse": {
+      "title": "Fleet Response",
+      "lightning:type": "@apexClassType/c__RoadsterRentalsGetAvailableCars$FleetResult"
+    }
+  }
+}
