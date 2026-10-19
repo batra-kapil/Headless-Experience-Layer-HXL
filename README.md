@@ -11,9 +11,9 @@ All car data comes from one Apex invocable action. Nothing is hardcoded in the w
 
 ## Watch the demo
 
-[![Build Once, Deploy Everywhere with HXL - Headless Experience Layer in Salesforce](https://img.youtube.com/vi/m0YTqT9DuIU/maxresdefault.jpg)](https://youtu.be/m0YTqT9DuIU)
+[![Build Once, Deploy Everywhere with HXL - Headless Experience Layer in Salesforce](assets/video-thumbnail.png)](https://www.youtube.com/watch?v=m0YTqT9DuIU)
 
-**YouTube:** https://youtu.be/m0YTqT9DuIU
+**YouTube:** https://www.youtube.com/watch?v=m0YTqT9DuIU
 
 ## Contents
 
@@ -324,7 +324,7 @@ Placeholders such as `[YOUR_ORG_ID]`, `[YOUR_USERNAME]`, `[EMAIL]`, `[DEPLOY_ID]
 
 ## Useful links
 
-- Demo video: https://youtu.be/m0YTqT9DuIU
+- Demo video: https://www.youtube.com/watch?v=m0YTqT9DuIU
 - HXL Playground: https://www.headlessexperiencelayer.com/playground/
 - Salesforce hosted MCP servers: https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/custom-servers.html
 - Expose custom Apex as a hosted MCP tool: https://developer.salesforce.com/blogs/2026/05/expose-custom-apex-as-a-hosted-mcp-tool-for-agents
